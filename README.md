@@ -1,2 +1,6 @@
-# House-Price-Prediction
-Ames House Price Prediction
+# Ames House Price Prediction
+To determine how house features add up to its price tag, the team performed data processing and applied predictive modeling techniques on a specific data set. Data was retrieved from Kaggle and it had 79 explanatory variables describing almost every aspect of residential houses in Ames, Iowa.  Predicting sales price with given house information would be valuable for real estate agents, house buyers, mortgage companies and possibly more business consumers as needed. 
+
+To resolve inconsistencies and eliminate redundant information, the team pre-processed the data and then used various modeling techniques to find the most accurate predictive model for predicting house sale price. After extensive analysis on the data and data dictionary, the team decided that  ‘SalePrice’ can be predicted as a continuous target variable or can be classified into two or three categories.Target variable is the one which receives properties of other variables. Hence, the price of the house will be predicted based on other variables. 
+
+The team followed the SEMMA approach to pre-process and create models. First, the team iteratively explored and modified the data as needed to remove inconsistencies. Next, separate models were created for both continuous and categorized target variable. Finally, as the cost of error is uncertain the models were assessed based on model accuracy, sensitivity, specificity and R-Squared value. 
